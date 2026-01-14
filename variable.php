@@ -2,14 +2,15 @@
 
 
 <?php
-$a = "this is a variable";
+$a = "this is a variable <br>";
 
 echo $a;
 $num = 25.87;
 
 echo $num;
 
-$firstName;
+$firstName = 'hello';
+echo "<br>" . $firstName;
 $__firstName;
 
 // wrong way to write variable
